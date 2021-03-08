@@ -1,0 +1,154 @@
+:root {
+  font-size: 18px;
+  --dark: #000000;
+  --secondary: #808080;
+  --primary: #ffffff;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.img-background {
+  background-image: url(../images/background.png);
+  height: 900px;
+  width: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  background: var(--dark);
+  /* width: 100%; */
+  height: 86px;
+}
+
+nav {
+  height: 86px;
+}
+
+nav ul {
+  height: 86px;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navlat {
+  width: 32%;
+}
+
+.links {
+  width: 36%;
+  padding-left: auto 0;
+}
+
+.logo a {
+  color: var(--primary);
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.links a {
+  color: var(--secondary);
+  font-size: 18px;
+}
+
+.logo li {
+  padding: 29px 0 25px 0;
+}
+
+.links li {
+  padding: 29px 20px 25px 20px;
+  text-align: center;
+}
+
+.login {
+  height: 86px;
+}
+
+.login li {
+  padding: 24px 20px 24px 0;
+  width: 123px;
+  float: right;
+}
+
+.login button {
+  width: 123px;
+  height: 38px;
+  border-radius: 8px;
+  background-color: var(--primary);
+  color: var(--dark);
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav ul li {
+  height: 28px;
+  float: left;
+}
+
+.links li:hover {
+  border-bottom: 4px solid var(--primary);
+  color: var(--primary);
+}
+
+a {
+  text-decoration: none;
+}
+
+.iphone {
+  margin: 0 20px;
+  float: left;
+}
+
+main {
+  margin-top: 124px;
+  width: 1160px;
+}
+
+.banner {
+  width: 685px;
+  padding: 0 10px;
+  float: left;
+  margin: 83px 0 210px;
+  bottom: 0;
+  /* position: sticky; */
+}
+
+.banner h3,
+.banner button {
+  color: var(--primary);
+  background-color: transparent;
+  margin: 24px 0;
+}
+
+.banner h3 {
+  font-size: 46px;
+}
+
+.banner p {
+  color: var(--secondary);
+  margin: 0 0 24px 0;
+}
+
+.banner p:last-child {
+  text-decoration: underline;
+}
+
+.banner button {
+  border: 2px solid var(--primary);
+  width: 260px;
+  height: 52px;
+  border-radius: 8px;
+}
+
+.debug {
+  box-shadow: inset 0 0 0 1px red;
+  outline: 1px solid red;
+}
