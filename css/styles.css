@@ -107,9 +107,10 @@ a {
   float: left;
 }
 
-main {
+.first-content {
   margin-top: 124px;
   width: 1160px;
+  height: 800px;
 }
 
 .banner {
@@ -146,6 +147,45 @@ main {
   width: 260px;
   height: 52px;
   border-radius: 8px;
+}
+
+.divlogos {
+  float: left;
+}
+
+.divlogos img {
+  margin: 8.5px 24px 8.5px 0;
+}
+
+.divlogos img:nth-child(2) {
+  margin: 0 24px 0 0;
+}
+
+.divlogos img:last-child {
+  margin-right: 0;
+}
+
+.second-content img {
+  margin: 128px 0 0 470px;
+}
+
+.second-content div {
+  width: 611px;
+  margin: 64px 0 124px 470px;
+}
+
+.second-content h2 {
+  margin-bottom: 24px;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.second-content p {
+  width: 580px;
+  margin: 0;
+  color: var(--secondary);
+  size: 18px;
+  line-height: 27px;
 }
 
 .debug {
