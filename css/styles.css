@@ -188,6 +188,11 @@ a {
   line-height: 27px;
 }
 
+.third-content {
+  background-image: url(../images/background3.png);
+  height: 775px;
+}
+
 .debug {
   box-shadow: inset 0 0 0 1px red;
   outline: 1px solid red;
